@@ -1,4 +1,6 @@
-This file simulates the performance of DASH, F-SHARP, IMPACT, a genetic algorithm, a partitioning algorithm, and a continuous sequential algorithm usign Julia version 1.5.3, instructions for inatallation can be found at www.julialang.org. 
+Julia Files:
+
+These files simulates the performance of DASH, F-SHARP, IMPACT, a genetic algorithm, a partitioning algorithm, and a continuous sequential algorithm usign Julia version 1.5.3, instructions for inatallation can be found at www.julialang.org. 
 Installation time is generally less than five minutes. All simulations are run from the DASH_main file, with companion functions in the DASH_functions file.
 
 In the simulation, a random phase scatterer is assumed, which is optically in the same plane ("conjugate") as the correction device (SLM).
@@ -18,3 +20,12 @@ Assumptions:
 -) SLM with N^2 pixels, conjugated to the objective pupil and phase scatterer
 -) 2D fluorescent sample; structure can be chosen ("layer", "bead" (a single pixel is fluorescent) or multiple beads at random positions in the focal plane)
 
+
+Python File: 
+
+This file simulates the basic working principle of DASH usign Python version 3.9.0, instructions can be found at www.python.org. 
+Installation time is generally less than five minutes.
+
+In the simulation, a random phase scatterer is assumed, which is optically in the same plane ("conjugate") as the correction device (SLM).
+To run the simulation, just execute the entire Python file. Execution should take less than 1 minute and the behavior shown in Fig. 1a of the paper will automatically be plotted.
+If desired, some parameters can be changed in the section "user parameters".
