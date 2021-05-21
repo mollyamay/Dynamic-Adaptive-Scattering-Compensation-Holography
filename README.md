@@ -1,3 +1,6 @@
+Source Data:
+Raw data for figures in Nature Communications publication NCOMMS-21-03415A.
+
 Julia Files:
 
 These files simulates the performance of DASH, F-SHARP, IMPACT, a genetic algorithm, a partitioning algorithm, and a continuous sequential algorithm usign Julia version 1.5.3, instructions for inatallation can be found at www.julialang.org. 
